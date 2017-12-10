@@ -9,11 +9,11 @@ public class SQLiteDBHelper extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
 
     public static final String TABLE_NAME = "profile";
-    public static final String COLUMN_ID =  "userid";
-    public static final String COLUMN_FULLNAME =  "fullname";
-    public static final String COLUMN_EMAIL =  "email";
-    public static final String COLUMN_PASSWORD =  "password";
-    public static final String COLUMN_MOBILE =  "mobile";
+    public static final String COLUMN_ID = "userid";
+    public static final String COLUMN_FULLNAME = "fullname";
+    public static final String COLUMN_EMAIL = "email";
+    public static final String COLUMN_PASSWORD = "password";
+    public static final String COLUMN_MOBILE = "mobile";
 
     private static final String CREATE_TABLE_QUERY =
             "CREATE TABLE " + TABLE_NAME + " (" +
